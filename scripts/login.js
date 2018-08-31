@@ -4,6 +4,7 @@ function userLogin(){
 			$("#password_span").hide();
 			var name=$("#count").val().trim();
 			var password=$("#password").val().trim();
+	window.location.href="index.html";
 			//格式检测
 			var ok=true;
 			if(name==""){
